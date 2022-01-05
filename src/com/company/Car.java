@@ -2,7 +2,7 @@ package com.company;
 
 public class Car {
     //class field or class attributes
-    //these should be private and we should access them via getter
+    //these should be private and we should access them via getter methods
     // and set them with setter methods and/or Constructors
     private String make = "Dodge";
     private String model = "Dart";
@@ -28,7 +28,7 @@ public class Car {
 
     //getter Methods allow us to control access to an objects internal fields.
     //We only allow the user of the object to see what we want them to see.
-    //getter and setter methods are almost always public.  
+    //getter and setter methods are almost always public.
     public String getMake(){
         return this.make;
     }
